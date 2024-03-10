@@ -1,6 +1,6 @@
 ﻿namespace ActionandFuncDelegatesinCSharp
 {
-    public class ActionandFuncDelegatesinCSharp
+    public class ActionandFuncDelegatesinCSharpCode
     {
         // Simple Action delegate
         public Action<int, int> add = (a, b) => Console.WriteLine($"Sum: {a + b}");
