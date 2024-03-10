@@ -1,10 +1,11 @@
 ﻿namespace ActionandFuncDelegatesinCSharp
 {
-    internal class Program
+    public class Program
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Hello, World!");
+            ActionandFuncDelegatesinCSharp actionandFuncDelegatesinCSharp = new ActionandFuncDelegatesinCSharp();
+            actionandFuncDelegatesinCSharp.add(10, 20);
         }
     }
 }
