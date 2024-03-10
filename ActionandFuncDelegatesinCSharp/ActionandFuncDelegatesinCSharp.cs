@@ -1,4 +1,6 @@
-﻿namespace ActionandFuncDelegatesinCSharp
+﻿using Microsoft.VisualBasic;
+
+namespace ActionandFuncDelegatesinCSharp
 {
     public class ActionandFuncDelegatesinCSharp
     {
@@ -40,6 +42,9 @@
             Console.WriteLine($"Multiplication: {x * y}");
             Console.WriteLine($"Division: {x / y}");
         };
+
+        // Func delegate to concatenate strings
+        public Func<string, string, string> concatenate = (s1, s2) => s1 + s2;
 
     }
 }

@@ -32,6 +32,10 @@
 
             // Invoking the Action delegate
             actionandFuncDelegatesinCSharp.arithmeticOperation(10, 5);
+
+            // Invoking the Func delegate
+            Console.WriteLine($"Concatenated string: {concatenate("Hello", "World")}");
+
         }
     }
 }
