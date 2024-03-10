@@ -11,5 +11,8 @@
         // Func delegate to calculate square
         public Func<int, int> square = x => x * x;
 
+        // Func delegate with multiple parameters
+        public Func<int, int, int> multiply = (x, y) => x * y;
+
     }
 }

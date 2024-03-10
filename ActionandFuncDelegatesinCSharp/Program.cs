@@ -14,6 +14,9 @@
 
             // Invoking the Func delegate
             Console.WriteLine($"Square: {actionandFuncDelegatesinCSharp.square(5)}");
+
+            // Invoking the Func delegate
+            Console.WriteLine($"Product: {actionandFuncDelegatesinCSharp.multiply(5, 10)}");
         }
     }
 }
