@@ -29,6 +29,9 @@
 
             // Func delegate to check if a number is even
             Console.WriteLine($"Is 10 even? {actionandFuncDelegatesinCSharp.isEven(10)}");
+
+            // Invoking the Action delegate
+            actionandFuncDelegatesinCSharp.arithmeticOperation(10, 5);
         }
     }
 }

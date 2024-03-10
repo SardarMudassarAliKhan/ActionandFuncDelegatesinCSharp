@@ -32,6 +32,15 @@
         // Func delegate to check if a number is even
         public Func<int, bool> isEven = num => num % 2 == 0;
 
+        // Action delegate to perform arithmetic operations
+        public Action<int, int> arithmeticOperation = (x, y) =>
+        {
+            Console.WriteLine($"Addition: {x + y}");
+            Console.WriteLine($"Subtraction: {x - y}");
+            Console.WriteLine($"Multiplication: {x * y}");
+            Console.WriteLine($"Division: {x / y}");
+        };
+
     }
 }
 
