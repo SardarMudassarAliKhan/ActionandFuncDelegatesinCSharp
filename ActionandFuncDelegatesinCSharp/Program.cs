@@ -4,7 +4,7 @@
     {
         static void Main(string[] args)
         {
-            ActionandFuncDelegatesinCSharp actionandFuncDelegatesinCSharp = new ActionandFuncDelegatesinCSharp();
+            ActionandFuncDelegatesinCSharpCode actionandFuncDelegatesinCSharp = new ActionandFuncDelegatesinCSharpCode();
 
             // Invoking the Action delegate
             actionandFuncDelegatesinCSharp.add(10, 20);
