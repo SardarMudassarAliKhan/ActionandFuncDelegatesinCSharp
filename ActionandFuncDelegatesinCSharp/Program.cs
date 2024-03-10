@@ -20,6 +20,10 @@
 
             // Invoking the Action delegate
             actionandFuncDelegatesinCSharp.printArray(new int[] { 1, 2, 3, 4, 5 });
+
+            // Invoking the Func delegate
+            Console.WriteLine($"Maximum number: {actionandFuncDelegatesinCSharp.maxNumber(new int[] { 1, 2, 3, 4, 5 })}");
+
         }
     }
 }

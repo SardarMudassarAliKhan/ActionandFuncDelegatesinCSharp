@@ -23,6 +23,8 @@
             }
         };
 
-
+        // Func delegate to find the maximum value in an array
+        public Func<int[], int> maxNumber = arr => arr.Max();
     }
 }
+
