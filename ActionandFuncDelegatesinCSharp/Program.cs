@@ -11,6 +11,9 @@
 
             // Invoking the Action delegate with no parameters
             actionandFuncDelegatesinCSharp.printMyName();
+
+            // Invoking the Func delegate
+            Console.WriteLine($"Square: {actionandFuncDelegatesinCSharp.square(5)}");
         }
     }
 }
