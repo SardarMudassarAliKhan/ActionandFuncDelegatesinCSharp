@@ -26,6 +26,9 @@
 
             // Log: This is a log message
             actionandFuncDelegatesinCSharp.logMessage("This is a log message");
+
+            // Func delegate to check if a number is even
+            Console.WriteLine($"Is 10 even? {actionandFuncDelegatesinCSharp.isEven(10)}");
         }
     }
 }

@@ -29,6 +29,9 @@
         // Action delegate to log messages
         public Action<string> logMessage = msg => Console.WriteLine($"Log: {msg}");
 
+        // Func delegate to check if a number is even
+        public Func<int, bool> isEven = num => num % 2 == 0;
+
     }
 }
 
