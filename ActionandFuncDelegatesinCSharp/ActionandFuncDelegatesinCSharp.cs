@@ -1,6 +1,4 @@
-﻿using Microsoft.VisualBasic;
-
-namespace ActionandFuncDelegatesinCSharp
+﻿namespace ActionandFuncDelegatesinCSharp
 {
     public class ActionandFuncDelegatesinCSharp
     {
