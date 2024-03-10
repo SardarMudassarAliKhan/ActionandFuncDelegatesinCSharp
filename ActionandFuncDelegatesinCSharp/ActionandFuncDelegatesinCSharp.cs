@@ -14,5 +14,15 @@
         // Func delegate with multiple parameters
         public Func<int, int, int> multiply = (x, y) => x * y;
 
+        // Action delegate to print elements of an array
+        public Action<int[]> printArray = (arr) =>
+        {
+            foreach (var item in arr)
+            {
+                Console.WriteLine(item);
+            }
+        };
+
+
     }
 }

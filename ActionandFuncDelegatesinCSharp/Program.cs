@@ -17,6 +17,9 @@
 
             // Invoking the Func delegate
             Console.WriteLine($"Product: {actionandFuncDelegatesinCSharp.multiply(5, 10)}");
+
+            // Invoking the Action delegate
+            actionandFuncDelegatesinCSharp.printArray(new int[] { 1, 2, 3, 4, 5 });
         }
     }
 }
