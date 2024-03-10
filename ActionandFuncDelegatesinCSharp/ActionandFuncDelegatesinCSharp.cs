@@ -25,6 +25,10 @@
 
         // Func delegate to find the maximum value in an array
         public Func<int[], int> maxNumber = arr => arr.Max();
+
+        // Action delegate to log messages
+        public Action<string> logMessage = msg => Console.WriteLine($"Log: {msg}");
+
     }
 }
 

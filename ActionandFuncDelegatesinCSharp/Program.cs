@@ -24,6 +24,8 @@
             // Invoking the Func delegate
             Console.WriteLine($"Maximum number: {actionandFuncDelegatesinCSharp.maxNumber(new int[] { 1, 2, 3, 4, 5 })}");
 
+            // Log: This is a log message
+            actionandFuncDelegatesinCSharp.logMessage("This is a log message");
         }
     }
 }
