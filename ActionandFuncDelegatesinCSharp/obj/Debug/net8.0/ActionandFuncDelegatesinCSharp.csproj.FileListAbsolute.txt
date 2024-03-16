@@ -1,0 +1,15 @@
+E:\SMAK-Code-Maze-Articles\SMAK-Code-Maze-Aricle-1\Code\ActionandFuncDelegatesinCSharp\ActionandFuncDelegatesinCSharp\bin\Debug\net8.0\ActionandFuncDelegatesinCSharp.exe
+E:\SMAK-Code-Maze-Articles\SMAK-Code-Maze-Aricle-1\Code\ActionandFuncDelegatesinCSharp\ActionandFuncDelegatesinCSharp\bin\Debug\net8.0\ActionandFuncDelegatesinCSharp.deps.json
+E:\SMAK-Code-Maze-Articles\SMAK-Code-Maze-Aricle-1\Code\ActionandFuncDelegatesinCSharp\ActionandFuncDelegatesinCSharp\bin\Debug\net8.0\ActionandFuncDelegatesinCSharp.runtimeconfig.json
+E:\SMAK-Code-Maze-Articles\SMAK-Code-Maze-Aricle-1\Code\ActionandFuncDelegatesinCSharp\ActionandFuncDelegatesinCSharp\bin\Debug\net8.0\ActionandFuncDelegatesinCSharp.dll
+E:\SMAK-Code-Maze-Articles\SMAK-Code-Maze-Aricle-1\Code\ActionandFuncDelegatesinCSharp\ActionandFuncDelegatesinCSharp\bin\Debug\net8.0\ActionandFuncDelegatesinCSharp.pdb
+E:\SMAK-Code-Maze-Articles\SMAK-Code-Maze-Aricle-1\Code\ActionandFuncDelegatesinCSharp\ActionandFuncDelegatesinCSharp\obj\Debug\net8.0\ActionandFuncDelegatesinCSharp.GeneratedMSBuildEditorConfig.editorconfig
+E:\SMAK-Code-Maze-Articles\SMAK-Code-Maze-Aricle-1\Code\ActionandFuncDelegatesinCSharp\ActionandFuncDelegatesinCSharp\obj\Debug\net8.0\ActionandFuncDelegatesinCSharp.AssemblyInfoInputs.cache
+E:\SMAK-Code-Maze-Articles\SMAK-Code-Maze-Aricle-1\Code\ActionandFuncDelegatesinCSharp\ActionandFuncDelegatesinCSharp\obj\Debug\net8.0\ActionandFuncDelegatesinCSharp.AssemblyInfo.cs
+E:\SMAK-Code-Maze-Articles\SMAK-Code-Maze-Aricle-1\Code\ActionandFuncDelegatesinCSharp\ActionandFuncDelegatesinCSharp\obj\Debug\net8.0\ActionandFuncDelegatesinCSharp.csproj.CoreCompileInputs.cache
+E:\SMAK-Code-Maze-Articles\SMAK-Code-Maze-Aricle-1\Code\ActionandFuncDelegatesinCSharp\ActionandFuncDelegatesinCSharp\obj\Debug\net8.0\ActionandFuncDelegatesinCSharp.dll
+E:\SMAK-Code-Maze-Articles\SMAK-Code-Maze-Aricle-1\Code\ActionandFuncDelegatesinCSharp\ActionandFuncDelegatesinCSharp\obj\Debug\net8.0\refint\ActionandFuncDelegatesinCSharp.dll
+E:\SMAK-Code-Maze-Articles\SMAK-Code-Maze-Aricle-1\Code\ActionandFuncDelegatesinCSharp\ActionandFuncDelegatesinCSharp\obj\Debug\net8.0\ActionandFuncDelegatesinCSharp.pdb
+E:\SMAK-Code-Maze-Articles\SMAK-Code-Maze-Aricle-1\Code\ActionandFuncDelegatesinCSharp\ActionandFuncDelegatesinCSharp\obj\Debug\net8.0\ActionandFuncDelegatesinCSharp.genruntimeconfig.cache
+E:\SMAK-Code-Maze-Articles\SMAK-Code-Maze-Aricle-1\Code\ActionandFuncDelegatesinCSharp\ActionandFuncDelegatesinCSharp\obj\Debug\net8.0\ref\ActionandFuncDelegatesinCSharp.dll
+E:\SMAK-Code-Maze-Articles\SMAK-Code-Maze-Aricle-1\Code\ActionandFuncDelegatesinCSharp\ActionandFuncDelegatesinCSharp\obj\Debug\net8.0\ActionandFuncDelegatesinCSharp.sourcelink.json
