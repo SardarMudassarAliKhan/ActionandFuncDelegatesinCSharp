@@ -1,5 +1,4 @@
 using ActionandFuncDelegatesinCSharp;
-using Microsoft.VisualStudio.TestPlatform.Utilities;
 
 namespace ActionandFuncDelegatesinCSharp_Test
 {
@@ -28,7 +27,7 @@ namespace ActionandFuncDelegatesinCSharp_Test
             Console.SetOut(consoleOutput);
 
             funcDelegatesinCSharpCode.printMyName();
-            consoleOutput.Flush(); 
+            consoleOutput.Flush();
 
             Assert.Equal(expectedOutput, consoleOutput.ToString().Trim());
         }
@@ -84,7 +83,7 @@ namespace ActionandFuncDelegatesinCSharp_Test
             Console.SetOut(consoleOutput);
 
             funcDelegatesinCSharpCode.logMessage("Testing logging");
-            consoleOutput.Flush(); 
+            consoleOutput.Flush();
 
             Assert.Equal(expectedOutput, consoleOutput.ToString());
         }
@@ -119,6 +118,69 @@ namespace ActionandFuncDelegatesinCSharp_Test
             var result = funcDelegatesinCSharpCode.concatenate("Hello, ", "World!");
 
             Assert.Equal("Hello, World!", result);
+        }
+
+        [Fact]
+        public void TestValidEmailAddress()
+        {
+            var emailService = new EmailServiceFuncAndActionExample();
+
+            bool isValidEmail = emailService.ValidateEmail("example@example.com");
+
+            Assert.True(isValidEmail);
+        }
+
+        [Fact]
+        public void TestInvalidEmailAddress()
+        {
+            var emailService = new EmailServiceFuncAndActionExample();
+
+            bool isValidEmail = emailService.ValidateEmail("invalidemail");
+
+            Assert.False(isValidEmail);
+        }
+
+        [Fact]
+        public void TestGenerateEmailContent()
+        {
+            var emailService = new EmailServiceFuncAndActionExample();
+            string recipient = "Sardar Mudassar Ali Khan";
+            string message = "Hello, this is a test email.";
+
+            string emailContent = emailService.GenerateEmailContent(recipient, message);
+
+            Assert.Contains(recipient, emailContent);
+            Assert.Contains(message, emailContent);
+            Assert.Contains("Sincerely,", emailContent);
+        }
+
+        [Fact]
+        public void TestSendEmail()
+        {
+            var emailService = new EmailServiceFuncAndActionExample();
+            string recipient = "example@example.com";
+            string subject = "Greetings";
+            string body = "Hello, this is a test email.";
+
+            try
+            {
+                emailService.SendEmail(recipient, subject, body);
+            }
+            catch (System.Exception)
+            {
+                Assert.True(false, "Exception was thrown when sending email, but none was expected.");
+            }
+        }
+
+        [Fact]
+        public void TestSendEmailInvalidRecipient()
+        {
+            var emailService = new EmailServiceFuncAndActionExample();
+            string recipient = "invalidemail";
+            string subject = "Important Notice";
+            string body = "This email should not be sent.";
+
+            Assert.Throws<System.ArgumentException>(() => emailService.SendEmail(recipient, subject, body));
         }
 
     }
